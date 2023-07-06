@@ -1,3 +1,53 @@
-div {
-    background-color: blue;
+.dive {
+    display: block;
+    padding: 20px;
+    border-radius: 20px;
+    border-top: 15px solid blue ;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 25px;
+    background-image: url(image/bulr.jpg);
+    
+}
+img {
+    border-radius: 100px;
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+    box-shadow: 5px 2px black ;
+}
+.text{
+    text-align: center;
+    color: aliceblue;
+}
+h1{
+    text-align: center;
+    margin-top: 50PX;
+    color: white;
+}
+*{
+    background-color: #18191A;
+    
+}
+.tdiv{
+    color: white;
+    
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 50px;
+    text-align: justify;
+    filter: blur(px);
+
+}
+p{
+    font-style: italic;
+    background-image: url(image/b.jpg);
+    border-left: 20px solid brown;
+
+}
+h2:hover{
+    color: #059862;
+    -webkit-transition: .3s ease-in-out;
+}
+
 }
